@@ -1,0 +1,104 @@
+.App {
+  font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  h1 {
+  font-size: 2.5rem;
+  }
+  
+  input,
+  select {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+  }
+  
+  label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  line-height: 30px;
+  }
+  
+  .input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+  }
+  
+  button {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  }
+  
+  button:hover {
+  background-color: #005daa;
+  }
+  
+  table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%;
+  }
+  
+  th,
+  td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+  }
+  
+  th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  td:last-child {
+  text-align: center;
+  }
+  
+  td button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  }
+  
+  td button:hover {
+  background-color: #c0392b;
+  }
+  
+  td .edit-button {
+  background-color: #0077cc;
+  }
+  
+  td .edit-button:hover {
+  background-color: #005daa;
+  }
+  
+  td button:disabled {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+  }
+  
+  td select {
+  font-size: 1rem;
+  padding: 0.25rem;
+  }
